@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.top{
+    display: flex;
+}
+.bot{
+    display: flex;
+
+}
+.half-size{
+    width: 50%;
+    padding-top: 5%;
+    padding: 10%;
+}
+.half-size img{
+        width: 75%;
+}
+.text-color{
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(84, 84, 233) ,rgb(0, 89, 255));
+    padding: 10px 40px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+}
+.forty{
+    width: 50%;
+    padding-top: 5%;
+    padding : 10%;
+}
+.forty img{
+    width: 80%;
+}
+.mid{
+    text-align: center;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    padding: 2%;
+    border-radius: 7%;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+}
+.shadow img{
+    width: 40%;
+}
+#blue{
+    background-color: rgb(184, 210, 211);
+}
+#red{
+    background-color: rgb(189, 161, 151);
+}
+#green{
+    background-color: rgb(158, 204, 158);
+}
