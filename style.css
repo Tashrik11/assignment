@@ -1,17 +1,26 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Luxurious Roman', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+.bigger{
+    font-size: 50px;
 }
 .top{
     display: flex;
+    padding-top: 7%;
 }
 .bot{
     display: flex;
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .half-size{
     width: 50%;
     padding-top: 5%;
-    padding: 10%;
+    padding: 7%;
+    padding-top: 10%;
 }
 .half-size img{
         width: 75%;
@@ -19,18 +28,27 @@ body{
 .text-color{
     color: blue;
 }
+#dd{
+    padding-top: 15%;
+    font-weight: bold;
+}
 .link{
     text-decoration: none;
-    background-image: linear-gradient(rgb(84, 84, 233) ,rgb(0, 89, 255));
+    background-image: linear-gradient(rgb(248, 74, 74) ,tomato);
     padding: 10px 40px;
     border-radius: 2px;
     color: white;
     font-weight: 700;
 }
 .forty{
-    width: 50%;
+    width: 40%;
+    padding-right: 1%;
+    padding-left: 10%;
     padding-top: 5%;
-    padding : 10%;
+}
+.sixty{
+width: 70%;
+padding-top: 5%;
 }
 .forty img{
     width: 80%;
@@ -39,14 +57,13 @@ body{
     text-align: center;
 }
 .shadow{
-    box-shadow: 10px 10px 40px gray;
-    width: 50%;
     padding: 2%;
     border-radius: 7%;
-    margin-top: 2%;
-    margin-right: 3%;
-    margin-left: 3%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    width: 50%;
 }
 .shadow img{
     width: 40%;
@@ -59,4 +76,36 @@ body{
 }
 #green{
     background-color: rgb(158, 204, 158);
+}
+.border{
+    border-left: 5px solid;
+    border-image:linear-gradient(red ,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 140px;
+    padding-top: 5%;
+}
+.backimages{
+    background-image: url(shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.topimages{
+    background-image: url(shapes/dream-bg\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+}
+.para{
+font-size: 20px;
+}
+#ff{
+    font-family: 'Luxurious Roman', cursive;
 }
