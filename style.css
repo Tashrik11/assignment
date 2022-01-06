@@ -10,6 +10,8 @@ font-family: 'Roboto Slab', serif;
 .top{
     display: flex;
     padding-top: 7%;
+    background-image: url(pic/top-banner.png);
+    background-repeat: repeat-x
 }
 .bot{
     display: flex;
@@ -108,4 +110,12 @@ font-size: 20px;
 }
 #ff{
     font-family: 'Luxurious Roman', cursive;
+}
+.last{
+    display: flex;
+    background-image: url(pic/shape-4.png);
+}
+.last img{
+    width: 80%;
+    padding-top: 5%;
 }
